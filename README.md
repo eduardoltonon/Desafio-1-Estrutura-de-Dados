@@ -29,11 +29,18 @@ Para compilar o projeto, é necessário ter o compilador **GCC** instalado. No t
 1. **Gerar os arquivos objetos (`.o`):**
    ```bash
    gcc -c requisicao.c estrutura.c teste.c
-
+```
 2. **Gerar executável:**
    ```bash
 gcc requisicao.o estrutura.o teste.o -o desafio
+```
 
 3. **Executar o programa:**
-   ***No windows:*** .\desafio.exe
-   ***No Linux/Mac:*** ./desafio
+   ***No windows:*** 
+    ```bash
+   .\desafio.exe
+   ```
+   ***No Linux/Mac:*** 
+   ```bash
+   /desafio
+   ```
